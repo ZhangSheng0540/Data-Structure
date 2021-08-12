@@ -3,7 +3,7 @@ package com.zhsheng.rumen.sum;
 import java.util.Arrays;
 import java.util.HashMap;
 
-class Solution {
+class TwoSum {
     /**
      * 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。
      *
@@ -37,6 +37,6 @@ class Solution {
     public static void main(String[] args) {
         int[] nums = {3,2,4};
         int targer = 6;
-        System.out.println(Arrays.toString(Solution.twoSum(nums, targer)));
+        System.out.println(Arrays.toString(TwoSum.twoSum(nums, targer)));
     }
 }
