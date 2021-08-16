@@ -49,8 +49,13 @@ public class ClimbStairs {
 
     }
 
+    public static int climbStairs1(int n) {
+
+        return 0;
+    }
+
     public static void main(String[] args) {
         int n = 5;
-        System.out.println(ClimbStairs.climbStairs(n));
+        System.out.println(ClimbStairs.climbStairs1(n));
     }
 }
